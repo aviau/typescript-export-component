@@ -38,6 +38,11 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Bye } from '@/router';
+
+export interface Allo {
+  aa: string;
+}
 
 @Component
 export default class HelloWorld extends Vue {

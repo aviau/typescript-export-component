@@ -1,8 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home, { Allo } from '../views/Home.vue'
 
 Vue.use(VueRouter)
+
+export interface Bye {
+  bb: "bb";
+}
+
+const a: Allo = {
+  aa: "aa",
+}
 
 const routes = [
   {
